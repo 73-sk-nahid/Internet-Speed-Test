@@ -7,7 +7,7 @@ This Python application provides a simple and user-friendly way to check your In
 - **Upload Speed:** Get accurate upload speed measurements.
 - **Clear UI:** The application offers a clean and intuitive user interface.
 # Screenshot
-<img src="Test1.png" alt="App Preview" width="300" height="300" /> <img src="Test2.png" alt="App Preview" width="300" height="300" />
+<img src="Test1.png" alt="App Preview" width="350" height="350" /> <img src="Test2.png" alt="App Preview" width="350" height="350" />
 
 Feel free to use, modify, and share this app as needed.
 

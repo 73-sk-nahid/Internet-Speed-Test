@@ -16,6 +16,7 @@ def Speedcheck():
     progress_bar.place(x=20, y=290, height=15, width=460)
     progress_bar.start(10)  # Start the progress bar animation
     sp_button.config(state=DISABLED)  # Disable the button while checking speed
+    sp_button.config(text="CHECKING...")
     thread = threading.Thread(target=check_speed)  # Create a thread for speed checking
     thread.start()
 
@@ -53,7 +54,8 @@ def check_speed():
     progress_bar.stop()  
     progress_bar.place_forget()
     
-    sp_button.config(state=NORMAL)  # Enable the button after speed check
+    sp_button.config(state=NORMAL)  
+    sp_button.config(text="CHECK AGAIN!")
 
 sp = Tk()
 sp.title("Internet Speed Test")
